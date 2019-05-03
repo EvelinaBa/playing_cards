@@ -12,7 +12,6 @@ Dviejų žaidėjų žaidime:
 Jei abi padėtos kortos vienodo rango, tada vyksta karas: abu žaidėjai ant savo padėtų kortų padeda po vieną užverstą ir vieną atverstą kortą, kurias paima iš savo dar nepaliestų kortų krūvelės. Didesnio rango atverstą kortą padėjęs žaidėjas paima visas kare dalyvavusias kortas (taip pat ir užverstas). Jei viršutinės kortos vis tiek vienodo rango – pradedamas kitas karas.
 
 Daugiau nei 2 žaidėjų žaidime:
-Yra daug variantų, pavyzdžiui:
 
 Karas vyksta tik tarp žaidėjų, kurių kortos rangas didžiausias:
 Laimi vienas iš kare dalyvavusių žaidėjų ir pasiima visų žaidėjų padėtas kortas.
