@@ -8,7 +8,6 @@ Dalintojas padalija kiekvienam žaidėjui po vienodą skaičių kortų. Žaidėj
 Pradžia:
 Žaidėjas, išdalijęs kortas, paima viršutinę kortą iš savo krūvelės ir padeda ją atverstą ant stalo. Kiti žaidėjai paima taip pat viršutinę kortą nuo savo krūvelių ir padeda šalia pirmo žaidėjo padėtos kortos. Tas, kurio padėtos kortos rangas didžiausias, pasiima visas kortas ir deda jas šalia savęs užverstas į kitą krūvelę.
 
-# Karas
 Dviejų žaidėjų žaidime:
 Jei abi padėtos kortos vienodo rango, tada vyksta karas: abu žaidėjai ant savo padėtų kortų padeda po vieną užverstą ir vieną atverstą kortą, kurias paima iš savo dar nepaliestų kortų krūvelės. Didesnio rango atverstą kortą padėjęs žaidėjas paima visas kare dalyvavusias kortas (taip pat ir užverstas). Jei viršutinės kortos vis tiek vienodo rango – pradedamas kitas karas.
 
