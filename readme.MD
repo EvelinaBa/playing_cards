@@ -3,7 +3,7 @@ Taisyklės:
 Kortų skaičius gali būti bet koks, tik svarbu, kad dalintųsi iš žaidėjų skaičiaus. Kuo mažesniu kortų skaičiumi pradėsite žaidimą, tuo trumpiau jis truks. Kortų rangų eilė tokia: dviakė, triakė, keturakė, penkakė, šešakė, septynakė, aštuonakė, devynakė, dešimtakė, bartukas, dama, karalius, tūzas, džokeris. Nei spalva, nei rūšis šiame žaidime neturi skirtumo.
 
 Pasiruošimas:
-Dalintojas padalija kiekvienam žaidėjui po vienodą skaičių kortų. Žaidėjai, nežiūrėję į gautas kortas, padeda jas užverstas šalia savęs ant stalo krūvele.
+Dalintojas padalija kiekvienam žaidėjui po vienodą skaičių kortų.
 
 Pradžia:
 Žaidėjas, išdalijęs kortas, paima viršutinę kortą iš savo krūvelės ir padeda ją atverstą ant stalo. Kiti žaidėjai paima taip pat viršutinę kortą nuo savo krūvelių ir padeda šalia pirmo žaidėjo padėtos kortos. Tas, kurio padėtos kortos rangas didžiausias, pasiima visas kortas ir deda jas šalia savęs užverstas į kitą krūvelę.
