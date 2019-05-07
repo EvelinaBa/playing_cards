@@ -20,7 +20,7 @@ Karas vyksta tarp bet kurių žaidėjų, kurių padėtos kortos vienodo rango, l
 Karas vyksta tokiu pat būdu kaip ir dviejų žaidėjų žaidime.
 
 Krūvelės:
-Kai kuriam nors žaidėjui baigiasi kortos, iš krūvelės, jis turi paimti nukariautų kortų krūvelę, ją gerai išmaišyti (galimi taisyklių variantai neleidžiantys maišyti) ir padėti į buvusią imamų kortų vietą. Vėliau nukariautos kortos dedamos į buvusią nukariautų kortų vietą.
+Kai kuriam nors žaidėjui baigiasi kortos, iš krūvelės, jis turi paimti nukariautų kortų krūvelę, ją gerai išmaišyti ir padėti į buvusią imamų kortų vietą. Vėliau nukariautos kortos dedamos į buvusią nukariautų kortų vietą.
 
 Laimėjimas:
 Žaidimą laimi žaidėjas, likęs su visomis žaidime dalyvavusiomis kortomis.
