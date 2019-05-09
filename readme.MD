@@ -9,3 +9,4 @@ Flow of the game:
 4. One card is revealed for each player and the cards are compared, the player that has a higher ranking card, takes the cards.
 5. If both cards are of the same value, two more cards are drawn and revealed. The player with the higher value cards takes all the cards, if the cards are still the same, another two cards are revealed until a winner of the round is determined, who takes all of the revealed cards.
 6. When one of the players runs out of cards, then the previously collected cards come to play. The winner is the player who ends up with the entire deck.
+7. Test
