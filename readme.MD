@@ -1,23 +1,11 @@
-# Kortų žaidimas “Karas”
-Kortų skaičius turi dalintis iš žaidėjų skaičiaus. Kortų rangų eilė tokia: dviakė, triakė, keturakė, penkakė, šešakė, septynakė, aštuonakė, devynakė, dešimtakė, bartukas, dama, karalius, tūzas, džokeris. Nei spalva, nei rūšis šiame žaidime neturi skirtumo.
+# Card game "War" with Python
 
-Kiekvienam žaidėjui padalijama po vienodą skaičių kortų.
+This is a first coding project and the aim is to make a card game with Python.
 
-Kiekvienam žaidėjui atverčiama viena korta. Tas, kurio kortos rangas didžiausias, pasiima visas kortas.
-
-Dviejų žaidėjų žaidime:
-Jei abi kortos vienodo rango, tada vyksta karas: abu žaidėjai ant savo padėtų kortų padeda po vieną užverstą ir vieną atverstą kortą, kurias paima iš savo dar nepaliestų kortų krūvelės. Didesnio rango atverstą kortą padėjęs žaidėjas paima visas kare dalyvavusias kortas (taip pat ir užverstas). Jei viršutinės kortos vis tiek vienodo rango – pradedamas kitas karas.
-
-Daugiau nei 2 žaidėjų žaidime:
-
-Karas vyksta tik tarp žaidėjų, kurių kortos rangas didžiausias:
-Laimi vienas iš kare dalyvavusių žaidėjų ir pasiima visų žaidėjų kortas.
-Kai baigia kariauti kariaujantys žaidėjai, laimėtoju tampa didžiausio rango kortą ant stalo padėjęs žaidėjas.
-Karas vyksta tarp bet kurių žaidėjų, kurių padėtos kortos vienodo rango, laimėtojas nustatomas vienu iš aukščiau minėtų metodų.
-Karas vyksta tokiu pat būdu kaip ir dviejų žaidėjų žaidime.
-
-Krūvelės:
-Kai kuriam nors žaidėjui baigiasi kortos, pradedama žaisti iš nukariautų kotų krūvelės.
-
-Laimėjimas:
-Žaidimą laimi žaidėjas, likęs su visomis žaidime dalyvavusiomis kortomis.
+Flow of the game:
+1. In this version of the card game "War" there are two players. 
+2. In the case of two players there has to be an equal amount of cards, so a standard deck of 52 cards is used. The deck consists of four suits, each suit contains 13 cards: Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King. Neither suit nor color has any matter in this game.
+3. The deck of 52 cards is randomly split into two parts for each player. 
+4. One card is revealed for each player and the cards are compared, the player that has a higher ranking card, takes the cards.
+5. If both cards are of the same value, two more cards are drawn and revealed. The player with the higher value cards takes all the cards, if the cards are still the same, another two cards are revealed until a winner of the round is determined, who takes all of the revealed cards.
+6. When one of the players runs out of cards, then the previously collected cards come to play. The winner is the player who ends up with the entire deck.
