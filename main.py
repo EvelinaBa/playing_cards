@@ -1,11 +1,11 @@
 import random
 
 cards = []
-suits = ["Clubs", "Diamonds", "Hearst", "Spades"]
+suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 ranks = ["J", "Q", "K", "A"]
 deck = []
 
-for i in range (2,11):
+for i in range(2,11):
     cards.append(str(i))
     
 for r in range(4):
@@ -13,7 +13,7 @@ for r in range(4):
     
 for k in range(4):
     for l in range(13):
-        card = (cards[1] + " of " + suits[k])
+        card = (cards[l] + " of " + suits[k])
         deck.append(card)
 
 random.shuffle(deck)
