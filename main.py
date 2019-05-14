@@ -1,19 +1,22 @@
 import random
-from random import shuffle
 
-suits = ["spade","club","heart","diamond"]
-rank = [2,3,4,5,6,7,8,9,10,"jack","queen","king","ace"]
+cards = []
+suits = ["Clubs", "Diamonds", "Hearst", "Spades"]
+ranks = ["J", "Q", "K", "A"]
+deck = []
 
-# suit1 = random.choice(suit)
-# rank1 = random.choice(rank)
+for i in range (2,11):
+    cards.append(str(i))
+    
+for r in range(4):
+    cards.append(ranks[r])
+    
+for k in range(4):
+    for l in range(13):
+        card = (cards[1] + " of " + suits[k])
+        deck.append(card)
 
-card1 = ("spade", 2)
-all_cards = []
-
-for suit in suits:
-    for card in cards:
-        card = (suit, card)
-        all_cards.append(card)
-
-shuffle(all_cards)
-print(all_cards)
+random.shuffle(deck)
+    
+for d in range(52):
+    print(deck[d])
