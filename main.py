@@ -2,7 +2,7 @@ import random
 
 cards = []
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
-ranks = ["J", "Q", "K", "A"]
+ranks = ["Joker", "Queen", "King", "Ace"]
 deck = []
 
 for i in range(2,11):
@@ -20,3 +20,15 @@ random.shuffle(deck)
     
 for d in range(52):
     print(deck[d])
+    
+player1_hand = []
+player2_hand = []
+
+n = 2
+l = deck
+
+def chunks(l, n):
+    n = max(1, n)
+    return (l[i:i+n] for i in range(0, len(l), n))
+
+list(chunks(l=deck, n=2))
