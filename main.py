@@ -2,7 +2,7 @@ import random
 
 cards = []
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
-ranks = ["Joker", "Queen", "King", "Ace"]
+ranks = ["Jack", "Queen", "King", "Ace"]
 deck = []
 
 for i in range(2,11):
