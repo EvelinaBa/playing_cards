@@ -1,5 +1,5 @@
 class Card(object):
-    RANKS = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
+    RANKS = ["Ace of ", "2 of ", "3 of ", "4 of ", "5 of ", "6 of ", "7 of ", "8 of ", "9 of ", "10 of ", "Jack of ", "Queen of ", "King of "]
     SUITS = ["Clubs", "Diamonds", "Hearts", "Spades"]
     
     def __init__(self, rank, suit):
@@ -59,32 +59,43 @@ class Deck(Hand):
                     print("Out of cards!")
 
 def cardvalue(cr):
-    if cr == "Ace":
+    if cr == "Ace of ":
         value = 1
-    elif cr == "2":
+    elif cr == "2 of ":
         value = 2
-    elif cr == "3":
+    elif cr == "3 of ":
         value = 3
-    elif cr == "4":
+    elif cr == "4 of ":
         value = 4
-    elif cr == "5":
+    elif cr == "5 of ":
         value = 5
-    elif cr == "6":
+    elif cr == "6 of ":
         value = 6
-    elif cr == "7":
+    elif cr == "7 of ":
         value = 7
-    elif cr == "8":
+    elif cr == "8 of ":
         value = 8
-    elif cr == "9":
+    elif cr == "9 of ":
         value = 9
-    elif cr == "10":
+    elif cr == "10 of ":
         value = 10
-    elif cr == "Jack":
+    elif cr == "Jack of ":
         value = 11
-    elif cr == "Queen":
+    elif cr == "Queen of ":
         value = 12
-    elif cr == "King":
+    elif cr == "King of ":
         value = 13
     else:
         value = 0
     return value
+
+deck1 = Deck()
+deck1.populate()
+deck1.shuffle()
+player1_hand = Hand()
+player2_hand = Hand()
+hands = [player1_hand, player2_hand]
+deck1.deal(hands, per_hand=1)
+
+print("Player1 hand:", player1_hand)
+print("Player2 hand:", player2_hand)
