@@ -99,3 +99,13 @@ deck1.deal(hands, per_hand=1)
 
 print("Player1 hand:", player1_hand)
 print("Player2 hand:", player2_hand)
+
+player1_val = cardvalue(player1_hand.cards[0].rank)
+player2_val = cardvalue(player2_hand.cards[0].rank)
+
+if player1_val > player2_val:
+    print("\nPlayer1 wins!")
+elif player1_val == player2_val:
+    print("\nDraw!")
+else:
+    print("\nPlayer2 wins!")
