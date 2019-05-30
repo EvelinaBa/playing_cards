@@ -2,8 +2,9 @@ import random
 import itertools
 
 # Create a shuffled deck of cards
-deck = list(itertools.product(['2', '3', '4', '5', '6', '7', '8', '9', '10',
-                               'Jack', 'Queen', 'King', 'Ace'], ['Clubs', 'Diamonds', 'Hearts', 'Spades']))
+cards = ['2', '3', '4', '5', '6', '7', '8', '9', '10','Jack', 'Queen', 'King', 'Ace']
+suits = ['Clubs', 'Diamonds', 'Hearts', 'Spades']
+deck = list(itertools.product(cards, suits))
 random.shuffle(deck)
 
 # Split deck into two parts
