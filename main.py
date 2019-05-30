@@ -43,7 +43,6 @@ def cardvalue(cr):
         raise "unknown value"
     return value
 
-
 # Count how many rounds a player wins
 win_count1 = 0
 win_count2 = 0
