@@ -9,13 +9,9 @@ print(deck)
 
 print(len(deck))
 
-#Deal cards to each player
 player1_hand = deck[:len(deck)//2]
 player2_hand = deck[len(deck)//2:]
 
-# One card is revealed for each player
-
-#Values are compared
 
 def cardvalue(cr):
  if cr == 'Ace':
@@ -49,35 +45,28 @@ def cardvalue(cr):
  return value
 
 
-#cardvalue(deck[2][0]) < cardvalue(deck[4][0])
-
 win_count1 = 0
 win_count2 = 0
 
 for i in range(len(player1_hand)):
- #cardvalue(player1_hand[i][0])
- #cardvalue(player2_hand[i][0])
-
- #print(cardvalue(player1_hand[i][0]))
- #print(cardvalue(player2_hand[i][0]))
 
  print('\n' ,player1_hand[i], ' vs ', player2_hand[i])
 
 
  if cardvalue(player1_hand[i][0]) > cardvalue(player2_hand[i][0]):
    win_count1 +=1
-   print('Player1 wins\n')
+   print('Player1 wins!\n')
  elif cardvalue(player1_hand[i][0]) == cardvalue(player2_hand[i][0]):
-   print('Draw\n')
+   print('Draw!\n')
  else:
    win_count2 +=1
-   print('Player2 wins\n')
+   print('Player2 wins!\n')
 
 print(win_count1, win_count2)
 
 if win_count1 > win_count2:
- print('pl1 wins')
+ print('Player1 wins!')
 elif win_count1 == win_count2:
- print('draw')
+ print('Draw!')
 else:
- print('pl2 wins')
+ print('Player2 wins!')
