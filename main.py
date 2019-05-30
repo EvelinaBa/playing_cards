@@ -62,7 +62,6 @@ for i in range(len(player1_hand)):
         win_count2 += 1
         print('Player2 wins!')
 
-
 # Reveal the total count of wins for each player
 print('Player1 win count:', win_count1) 
 print('Player2 win count:', win_count2)
