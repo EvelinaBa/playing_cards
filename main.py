@@ -1,19 +1,17 @@
 import random
 import itertools
 
-
+#Create a shuffled deck of cards
 deck = list(itertools.product(['2', '3', '4', '5', '6', '7', '8', '9', '10',
                                'Jack', 'Queen', 'King', 'Ace'], ['Clubs', 'Diamonds', 'Hearts', 'Spades']))
 random.shuffle(deck)
 print(deck)
 
-
-print(len(deck))
-
+#Split deck into two parts
 player1_hand = deck[:len(deck)//2]
 player2_hand = deck[len(deck)//2:]
 
-
+#Define card calues
 def cardvalue(cr):
     if cr == 'Ace':
         value = 1
@@ -45,10 +43,12 @@ def cardvalue(cr):
         raise "unknown value"
     return value
 
-
+#Count how many rounds a player wins
 win_count1 = 0
 win_count2 = 0
 
+
+#Reveal a card for each player until cards run out and compare the values of the cards
 for i in range(len(player1_hand)):
 
     print('\n', player1_hand[i], ' vs ', player2_hand[i])
@@ -62,8 +62,11 @@ for i in range(len(player1_hand)):
         win_count2 += 1
         print('Player2 wins!\n')
 
+
+#Reveal the total count of wins for each player
 print(win_count1, win_count2)
 
+#Determine the winner of the game
 if win_count1 > win_count2:
     print('Player1 wins!')
 elif win_count1 == win_count2:
